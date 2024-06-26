@@ -1,7 +1,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <vector>
-using namespace std;
+using namespace std ;
 
 int countNiceSubarrays(vector<int>& nums, int k) {
     unordered_map<int, int> odd_count_map;
