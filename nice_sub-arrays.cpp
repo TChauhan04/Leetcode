@@ -10,7 +10,8 @@ int countNiceSubarrays(vector<int>& nums, int k) {
     int odd_count = 0; // How many odd numbers we've seen so far
     int nice_subarrays = 0; // The count of nice subarrays
     
-    for (int num : nums) {
+    for (int num : nums) 
+    {
         if (num % 2 == 1) {
             odd_count++; // Increase count if the number is odd
         }
