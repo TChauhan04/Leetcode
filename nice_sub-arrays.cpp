@@ -27,7 +27,8 @@ int countNiceSubarrays(vector<int>& nums, int k) {
     return nice_subarrays;
 }
 
-int main() {
+int main() 
+{
     vector<int> nums = {1, 1, 2, 1, 1};
     int k = 3;
     
