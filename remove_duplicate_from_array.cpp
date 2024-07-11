@@ -11,7 +11,7 @@ int removeDuplicates(std::vector<int>& nums) {
             k++; // Increment the position for the next unique element
         }
     }
-    return k; // Return the number of unique elements
+    return k ; // Return the number of unique elements
 }
 
 int main() {
