@@ -2,7 +2,7 @@
 #include <iostream>
 
 int removeDuplicates(std::vector<int>& nums) {
-    if (nums.empty()) return 0; // If the array is empty, return 0
+    if (nums.empty()) return 0 ; // If the array is empty, return 0
 
     int k = 1; // Start with the first element, which is always unique
     for (int i = 1; i < nums.size(); ++i) { // Iterate from the second element
