@@ -1,9 +1,11 @@
 class Solution {
 public:
-    bool checkIfExist(vector<int>& arr) {
+    bool checkIfExist(vector<int>& arr) 
+{
         std::unordered_map<int, int> value_indices;
 
-    for (int index = 0; index < arr.size(); ++index) {
+    for (int index = 0; index < arr.size(); ++index) 
+    {
         int value = arr[index];
         // Check if value * 2 or value / 2 exists in the map
         if (value_indices.find(value * 2) != value_indices.end() ||
