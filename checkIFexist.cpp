@@ -9,7 +9,8 @@ public:
         int value = arr[index];
         // Check if value * 2 or value / 2 exists in the map
         if (value_indices.find(value * 2) != value_indices.end() ||
-            (value % 2 == 0 && value_indices.find(value / 2) != value_indices.end())) {
+            (value % 2 == 0 && value_indices.find(value / 2) != value_indices.end())) 
+        {
             return true;
         }
         value_indices[value] = index;
@@ -24,7 +25,8 @@ int main()
     if (checkIfExist(arr))
     {
         std::cout << "True" << std::endl;
-    } else {
+    } else 
+    {
         std::cout << "False" << std::endl;
     }
 
