@@ -18,9 +18,11 @@ public:
     return false;
 }
 
-int main() {
+int main() 
+{
     std::vector<int> arr = {10, 2, 5, 3};
-    if (checkIfExist(arr)) {
+    if (checkIfExist(arr))
+    {
         std::cout << "True" << std::endl;
     } else {
         std::cout << "False" << std::endl;
